@@ -1,0 +1,13 @@
+Flask
+Flask-SQLAlchemy
+Flask-RESTful
+Flask-JWT-Extended
+PyMySQL
+Flask-CORS
+opencv-python
+torch
+torchvision
+ultralytics
+numpy
+Pillow
+PyYAML

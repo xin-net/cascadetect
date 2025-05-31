@@ -1,0 +1,12 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+nc: 1
+names:
+- defect
+roboflow:
+  workspace: project-ylsxv
+  project: xlight-eidhi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-ylsxv/xlight-eidhi/dataset/1

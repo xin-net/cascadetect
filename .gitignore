@@ -1,0 +1,50 @@
+# Ignored files for CascadeDetect project
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.wheels/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backend specific
+cascadetect_backend/backend.db
+cascadetect_backend/uploads/
+
+# Frontend specific
+cascadetect_forend/dist/
+cascadetect_forend/node_modules/
+
+# Model specific
+cascadetect_models/logs/
+cascadetect_models/results/
+cascadetect_models/runs/
+cascadetect_models/__pycache__/
+cascadetect_models/yolov8n.pt # Example model file, adjust if needed
+cascadetect_models/yolo11n.pt # Example model file, adjust if needed
+
+# Environment variables
+.env
+.venv/
+env/
+
+# Other
+*.log
+*.tmp
